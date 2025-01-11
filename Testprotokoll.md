@@ -1,17 +1,38 @@
 # Testprotokoll Louis
 
-## Programmabsturz
+## Programmabsturz 1
 ### Schritte:
 - Spiel starten
 - Eine zu grosse Zahl (in meinem Fall 7) eingeben
 
 ### Erwartetes Ergebnis:
-- Fehlermeldung (z.B. "Diese Zahl ist zu gross. Gib eine Zahl zwischen 0 und 6 ein.")
+- Fehlermeldung (z.B. "Diese Zahl ist zu gross. Gib bitte eine Zahl zwischen 0 und 6 ein.")
 
 ### Tatsächliches Ergebnis:
 - Programmabsturz (siehe Bild unten)
 
 ![image](https://github.com/user-attachments/assets/41312c3d-431f-4562-8e28-518f0117565f)
+
+
+## Programmabsturz 2
+### Schritte:
+- Spiel starten
+- Eingabe Player x: 0
+- Eingabe Player o: 0
+- Eingabe Player x: 0
+- Eingabe Player o: 0
+- Eingabe Player x: 0
+- Eingabe Player o: 0
+- Eingabe Player x: 0
+
+### Erwartetes Ergebnis:
+- Fehlermeldung (z.B. "Diese Spalte ist bereits voll. Bitte wähle eine andere Spalte aus.")
+
+### Tatsächliches Ergebnis:
+- Programmabsturz (siehe Bild unten)
+
+![image](https://github.com/user-attachments/assets/d2b26170-8d88-4410-b314-f431fa0f7aea)
+
 
 ## Logikfehler
 ### Schritte:
